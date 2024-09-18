@@ -20,7 +20,6 @@
             Console.Write("Enter email address: ");
             emailAddress = Console.ReadLine();
 
-
             username = createUserName(firstName,lastName,age);
             Console.WriteLine($"Username is {username}, you have successfully registered please remember your password");
 
